@@ -1,0 +1,35 @@
+;
+; NET 4.8 Main Installer
+;
+ndp48-x86-x64-allos-enu.exe http://download.visualstudio.microsoft.com/download/pr/014120d7-d689-4305-befd-3cb711108212/0fd66638cde16859462a6243a4629a50/ndp48-x86-x64-allos-enu.exe
+;
+; Non-english Language Packs
+;
+ndp48-x86-x64-allos-ara.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/26064ac7e45aa4f47d6860b56411611a/ndp48-x86-x64-allos-ara.exe ar-SA
+ndp48-x86-x64-allos-chs.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/00751a26db33223ca3f9a8b20a7be95c/ndp48-x86-x64-allos-chs.exe zh-CN
+ndp48-x86-x64-allos-cht.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/7676d67ad615dcfd9a649eaed5645a05/ndp48-x86-x64-allos-cht.exe zh-TW
+ndp48-x86-x64-allos-csy.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/7106c4c18b27315687c26caceeea3543/ndp48-x86-x64-allos-csy.exe cs-CZ
+ndp48-x86-x64-allos-dan.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/605b0279eec53f378dab97cdc368cfb9/ndp48-x86-x64-allos-dan.exe da-DK
+ndp48-x86-x64-allos-deu.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/65592cace88fcfb3e14a5c4a54833794/ndp48-x86-x64-allos-deu.exe de-DE
+ndp48-x86-x64-allos-ell.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/ec3f8c7989b67342d7507bd8d6a71ada/ndp48-x86-x64-allos-ell.exe el-GR
+ndp48-x86-x64-allos-esn.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/fcd16fc8c8c9da914cfee0e50a6fc468/ndp48-x86-x64-allos-esn.exe es-ES
+ndp48-x86-x64-allos-fin.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/99312b14271fce7ac35c6b0d5da0c440/ndp48-x86-x64-allos-fin.exe fi-FI
+ndp48-x86-x64-allos-fra.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/4806c4e6dc10643278ac0b8a7d7d6b28/ndp48-x86-x64-allos-fra.exe fr-FR
+ndp48-x86-x64-allos-heb.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/db06337271690ebac860c0e8690c279d/ndp48-x86-x64-allos-heb.exe he-IL
+ndp48-x86-x64-allos-hun.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/84295631217e65cf2ce576b42e7c715c/ndp48-x86-x64-allos-hun.exe hu-HU
+ndp48-x86-x64-allos-ita.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/623a9d227bd9a153fa4dc579fdde0c91/ndp48-x86-x64-allos-ita.exe it-IT
+ndp48-x86-x64-allos-jpn.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/7629a0c2eb175ef8fa014016cdadfa93/ndp48-x86-x64-allos-jpn.exe ja-JP
+ndp48-x86-x64-allos-kor.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/9d1856530a5ddf727b92522c373c9ab4/ndp48-x86-x64-allos-kor.exe ko-KR
+ndp48-x86-x64-allos-nld.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/d411529d8d7e2a0b469e018764af0dd8/ndp48-x86-x64-allos-nld.exe nl-NL
+ndp48-x86-x64-allos-nor.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/5f4eab0f2b79c7474f5acf52d153de51/ndp48-x86-x64-allos-nor.exe nb-NO
+ndp48-x86-x64-allos-plk.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/1c01173f1c67027f3760dfa9adb80b12/ndp48-x86-x64-allos-plk.exe pl-PL
+ndp48-x86-x64-allos-ptb.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/1eca58815ccde3af6663329a2dd92643/ndp48-x86-x64-allos-ptb.exe pt-BR
+ndp48-x86-x64-allos-ptg.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/6f5a86061349e0aa52261f63a392f3b9/ndp48-x86-x64-allos-ptg.exe pt-PT
+ndp48-x86-x64-allos-rus.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/d117d224faa480ffdf7623c72edfa317/ndp48-x86-x64-allos-rus.exe ru-RU
+ndp48-x86-x64-allos-sve.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/86e30d0c9a2c7ea7a0de8912a9a06407/ndp48-x86-x64-allos-sve.exe sv-SE
+ndp48-x86-x64-allos-trk.exe http://download.visualstudio.microsoft.com/download/pr/7afca223-55d2-470a-8edc-6a1739ae3252/d433e17eb7b7162e4e96e28797bde94c/ndp48-x86-x64-allos-trk.exe tr-TR
+;
+; Secruity and Quality Rollup Update
+;
+ndp48-kb5001843-x86.exe http://download.windowsupdate.com/c/msdownload/update/software/updt/2021/04/ndp48-kb5001843-x86_3da1749fd02a079ba5d45d6d631fbb365054322c.exe
+ndp48-kb5001843-x64.exe http://download.windowsupdate.com/d/msdownload/update/software/updt/2021/04/ndp48-kb5001843-x64_dc06d911dffd65ed01ac53c7d80f6764bf820496.exe
