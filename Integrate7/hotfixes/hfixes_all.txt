@@ -1,0 +1,178 @@
+;
+; Prerequisites
+;
+; Old update for Servicing Stack (obsolete, but still required due to metadata)
+Windows6.1-KB2533552-x86.msu http://download.windowsupdate.com/msdownload/update/software/crup/2011/05/windows6.1-kb2533552-x86_f2061d1c40b34f88efbe55adf6803d278aa67064.msu
+Windows6.1-KB2533552-x64.msu http://download.windowsupdate.com/msdownload/update/software/crup/2011/05/windows6.1-kb2533552-x64_0ba5ac38d4e1c9588a1e53ad390d23c1e4ecd04d.msu
+; Servicing Stack update March 2019
+windows6.1-kb4490628-x86.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2019/03/windows6.1-kb4490628-x86_3cdb3df55b9cd7ef7fcb24fc4e237ea287ad0992.msu
+windows6.1-kb4490628-x64.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2019/03/windows6.1-kb4490628-x64_d3de52d6987f7c8bdc2c015dca69eac96047c76e.msu
+; Servicing Stack update December 2020
+windows6.1-kb4592510-x86.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2020/11/windows6.1-kb4592510-x86_6d69f2bf51cacf9638c9fc9b24502b4380b4f677.msu
+windows6.1-kb4592510-x64.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2020/11/windows6.1-kb4592510-x64_2798f0d248e08c292076980d2b954e6e1f2c8f99.msu
+; Convenience Rollup Update May 2016
+windows6.1-kb3125574-v4-x86.msu http://download.windowsupdate.com/d/msdownload/update/software/updt/2016/05/windows6.1-kb3125574-v4-x86_ba1ff5537312561795cc04db0b02fbb0a74b2cbd.msu
+windows6.1-kb3125574-v4-x64.msu http://download.windowsupdate.com/d/msdownload/update/software/updt/2016/05/windows6.1-kb3125574-v4-x64_2dafb1d203c8964239af3048b5dd4b1264cd93b9.msu
+;
+; IE 11 pre-requisites (not included in Covnenience Rollup)
+;
+; API update
+Windows6.1-KB2533623-x64.msu http://download.microsoft.com/download/F/1/0/F106E158-89A1-41E3-A9B5-32FEB2A99A0B/Windows6.1-KB2533623-x64.msu
+Windows6.1-KB2533623-x86.msu http://download.microsoft.com/download/2/D/7/2D78D0DD-2802-41F5-88D6-DC1D559F206D/Windows6.1-KB2533623-x86.msu
+; Segoe UI symbol font
+Windows6.1-KB2729094-v2-x64.msu http://download.microsoft.com/download/6/C/A/6CA15546-A46C-4333-B405-AB18785ABB66/Windows6.1-KB2729094-v2-x64.msu
+Windows6.1-KB2729094-v2-x86.msu http://download.microsoft.com/download/B/6/B/B6BF1D9B-2568-406B-88E8-E4A218DEA90A/Windows6.1-KB2729094-v2-x86.msu
+; Platform Update
+Windows6.1-KB2670838-x64.msu http://download.microsoft.com/download/1/4/9/14936FE9-4D16-4019-A093-5E00182609EB/Windows6.1-KB2670838-x64.msu
+Windows6.1-KB2670838-x86.msu http://download.microsoft.com/download/1/4/9/14936FE9-4D16-4019-A093-5E00182609EB/Windows6.1-KB2670838-x86.msu
+;
+; Recommended updates
+;
+; Windows Help program
+Windows6.1-KB917607-x86.msu http://download.microsoft.com/download/9/A/8/9A8FCFAA-78A0-49F5-8C8E-4EAE185F515C/Windows6.1-KB917607-x86.msu
+Windows6.1-KB917607-x64.msu http://download.microsoft.com/download/9/A/8/9A8FCFAA-78A0-49F5-8C8E-4EAE185F515C/Windows6.1-KB917607-x64.msu
+; AMD Microcode Update
+Windows6.1-KB2818604-x64.msu http://download.microsoft.com/download/9/2/C/92C0A899-7F50-4F76-8FDC-DB722E742DEF/Windows6.1-KB2818604-x64.msu
+Windows6.1-KB2818604-x86.msu http://download.microsoft.com/download/6/4/6/6461D048-01F7-4B31-9B06-526F6D8994F7/Windows6.1-KB2818604-x86.msu
+; Intel Microcode Update
+Windows6.1-KB3064209-x64.msu http://download.microsoft.com/download/3/7/A/37A7BC0A-9E57-4B7D-B143-39CFFA4F2A2D/Windows6.1-KB3064209-x64.msu
+Windows6.1-KB3064209-x86.msu http://download.microsoft.com/download/5/2/A/52ADDA28-86A2-4639-AEA7-FD58A9739BC8/Windows6.1-KB3064209-x86.msu
+; Kernel Mode Driver Framework Update
+windows6.1-kb2685811-x64.msu http://download.windowsupdate.com/msdownload/update/software/updt/2012/11/windows6.1-kb2685811-x64_191e09df632b70fd4f4b27d4cb9227f7c5a1c98c.msu
+windows6.1-kb2685811-x86.msu http://download.windowsupdate.com/msdownload/update/software/updt/2012/11/windows6.1-kb2685811-x86_4db620a8b8e85bab4822626530d01fd923c28786.msu
+windows6.1-kb2864202-x86.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2013/07/windows6.1-kb2864202-x86_9e556e48e72ae30ec89c5f1c713acde26da2556a.msu
+windows6.1-kb2864202-x64.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2013/07/windows6.1-kb2864202-x64_92617ad813adf4795cd694d828558271086f4f70.msu
+; User Mode Driver Framework Update
+Umdf-1.11-Win-6.1-x64.msu http://download.microsoft.com/download/9/1/E/91E874B3-AFCF-405E-981C-22E183516C49/Umdf-1.11-Win-6.1-x64.msu
+Umdf-1.11-Win-6.1-x86.msu http://download.microsoft.com/download/9/1/E/91E874B3-AFCF-405E-981C-22E183516C49/Umdf-1.11-Win-6.1-x86.msu
+; IE11 long URL fix
+Windows6.1-KB2547666-x64.msu http://download.windowsupdate.com/msdownload/update/software/updt/2011/06/windows6.1-kb2547666-x64_28b78926b1b1a04a9867050ecb5e81857ebd5d66.msu
+Windows6.1-KB2547666-x86.msu http://download.windowsupdate.com/msdownload/update/software/updt/2011/06/windows6.1-kb2547666-x86_347580aa20811f8f196c0634da421c53498e7ab8.msu
+; Blured text in IE fix
+Windows6.1-KB2545698-x64.msu http://download.windowsupdate.com/msdownload/update/software/updt/2011/06/windows6.1-kb2545698-x64_51753a436cc6358b6e3e15db9b43ffc97d523fc9.msu
+Windows6.1-KB2545698-x86.msu http://download.windowsupdate.com/msdownload/update/software/updt/2011/06/windows6.1-kb2545698-x86_e9b32b4a60c2fb2f074aa91038318173c0aadacf.msu
+; Registry settings mismatch fix for x64
+Windows6.1-KB2603229-x64.msu http://download.windowsupdate.com/msdownload/update/software/updt/2011/10/windows6.1-kb2603229-x64_aea29b57253c8f271d99b76f09839dbf1c0a7f86.msu
+; OXPS to XPS converter
+Windows6.1-KB2732059-v5-x64.msu http://download.microsoft.com/download/F/6/1/F616B4DD-57F5-4866-9BE7-FB9C410756E1/Windows6.1-KB2732059-v5-x64.msu
+Windows6.1-KB2732059-v5-x86.msu http://download.microsoft.com/download/B/2/B/B2B29C73-FEF8-433A-BF89-67B84C5D1521/Windows6.1-KB2732059-v5-x86.msu
+; IPv6 fix
+Windows6.1-KB2750841-x64.msu http://download.microsoft.com/download/A/4/B/A4B08AA8-01A6-4C85-A209-DBB86E1A9CE2/Windows6.1-KB2750841-x64.msu
+Windows6.1-KB2750841-x86.msu http://download.microsoft.com/download/B/0/0/B0021BB9-E146-4B05-9BB2-054B39786279/Windows6.1-KB2750841-x86.msu
+; Additional Calibri family font
+Windows6.1-KB2761217-x64.msu http://download.microsoft.com/download/D/5/F/D5F8011E-9096-4C46-A74D-5E0F3F564082/Windows6.1-KB2761217-x64.msu
+Windows6.1-KB2761217-x86.msu http://download.microsoft.com/download/A/1/D/A1D7BC1D-DFCF-4BFA-A1E0-D5EEFB865987/Windows6.1-KB2761217-x86.msu
+; Games Clasification Update
+Windows6.1-KB2773072-x64.msu http://download.microsoft.com/download/9/D/E/9DE7F67E-E7E4-4206-BE95-256C99F4A9A6/Windows6.1-KB2773072-x64.msu
+Windows6.1-KB2773072-x86.msu http://download.microsoft.com/download/1/7/1/1718BAD1-874E-48A0-93D2-89EABD15AE79/Windows6.1-KB2773072-x86.msu
+; DTLS, RemoteApp, RDP 8.0 (Server) and 8.1 (Client) Updates
+Windows6.1-KB2574819-v2-x64.msu http://download.microsoft.com/download/C/7/3/C73F9AF0-166A-4782-B692-9B91A2BE1571/Windows6.1-KB2574819-v2-x64.msu
+Windows6.1-KB2574819-v2-x86.msu http://download.microsoft.com/download/A/D/4/AD4875AF-38B3-42C7-9915-16C7505C15DE/Windows6.1-KB2574819-v2-x86.msu
+Windows6.1-KB2592687-x86.msu http://download.microsoft.com/download/1/E/2/1E2A08C9-B87B-4808-94A6-30BC9D65775E/Windows6.1-KB2592687-x86.msu
+Windows6.1-KB2592687-x64.msu http://download.microsoft.com/download/A/F/5/AF5C565C-9771-4BFB-973B-4094C1F58646/Windows6.1-KB2592687-x64.msu
+Windows6.1-KB2830477-x64.msu http://download.microsoft.com/download/D/0/7/D07A8332-3B08-4919-9683-BFDD4D6F7BDC/Windows6.1-KB2830477-x64.msu
+Windows6.1-KB2830477-x86.msu http://download.microsoft.com/download/2/B/2/2B280EDD-FDA9-4044-9FB4-A3BE7CBF9AB1/Windows6.1-KB2830477-x86.msu
+Windows6.1-KB2857650-x64.msu http://download.microsoft.com/download/D/0/7/D07A8332-3B08-4919-9683-BFDD4D6F7BDC/Windows6.1-KB2857650-x64.msu
+Windows6.1-KB2857650-x86.msu http://download.microsoft.com/download/2/B/2/2B280EDD-FDA9-4044-9FB4-A3BE7CBF9AB1/Windows6.1-KB2857650-x86.msu
+Windows6.1-KB2913751-x64.msu http://download.microsoft.com/download/D/0/7/D07A8332-3B08-4919-9683-BFDD4D6F7BDC/Windows6.1-KB2913751-x64.msu
+Windows6.1-KB2913751-x86.msu http://download.microsoft.com/download/2/B/2/2B280EDD-FDA9-4044-9FB4-A3BE7CBF9AB1/Windows6.1-KB2913751-x86.msu
+; RDP 8.1 hotfixes
+Windows6.1-KB2923545-x86.msu http://download.microsoft.com/download/C/6/2/C62C5E5F-90B4-4F03-AB7B-5EA94F17EA6D/Windows6.1-KB2923545-x86.msu
+Windows6.1-KB2923545-x64.msu http://download.microsoft.com/download/D/A/E/DAEC10E4-CF9A-4F62-9E87-B07BAA2DCEA9/Windows6.1-KB2923545-x64.msu
+Windows6.1-KB2984976-x86.msu http://download.microsoft.com/download/C/8/9/C89F733D-CD8E-4653-86C1-7C9C578999AC/Windows6.1-KB2984976-x86.msu
+Windows6.1-KB2984976-x64.msu http://download.microsoft.com/download/D/D/F/DDF595D0-4EAB-49A9-AE1B-CBF90479ADE1/Windows6.1-KB2984976-x64.msu
+Windows6.1-KB3020388-x64.msu http://download.microsoft.com/download/A/D/6/AD64890E-91F8-4E9A-80CC-D5A92998F9E3/Windows6.1-KB3020388-x64.msu
+Windows6.1-KB3020388-x86.msu http://download.microsoft.com/download/B/8/5/B85A8E02-7C56-47B1-9C87-D0BCBEC7CE2C/Windows6.1-KB3020388-x86.msu
+Windows6.1-KB3075226-x64.msu http://download.microsoft.com/download/2/A/D/2AD517A7-5816-4CD9-949D-28DAD8C70259/Windows6.1-KB3075226-x64.msu
+Windows6.1-KB3075226-x86.msu http://download.microsoft.com/download/5/C/3/5C35066C-65D5-4385-B032-966FD645D619/Windows6.1-KB3075226-x86.msu
+; Platform Update (KB2670838) Bug Fix
+Windows6.1-KB2834140-v2-x64.msu http://download.microsoft.com/download/5/A/5/5A548BFE-ADC5-414B-B6BD-E1EC27A8DD80/Windows6.1-KB2834140-v2-x64.msu
+Windows6.1-KB2834140-v2-x86.msu http://download.microsoft.com/download/F/1/4/F1424AD7-F754-4B6E-B0DA-151C7CBAE859/Windows6.1-KB2834140-v2-x86.msu
+; Canada Country Code Fix
+Windows6.1-KB2919469-x64.msu http://download.microsoft.com/download/2/D/7/2D7B1021-976C-42AB-B098-0BBA02823C82/Windows6.1-KB2919469-x64.msu
+Windows6.1-KB2919469-x86.msu http://download.microsoft.com/download/C/8/F/C8FF9222-166B-4242-BDFA-DC83E7CDFC47/Windows6.1-KB2919469-x86.msu
+; Additional Currencies Symbols
+Windows6.1-KB2970228-x86.msu http://download.microsoft.com/download/F/5/2/F52EAFA8-4B70-4F4B-A8E8-7134442A50C3/Windows6.1-KB2970228-x86.msu
+Windows6.1-KB2970228-x64.msu http://download.microsoft.com/download/B/D/0/BD037160-0E07-4346-B4B8-C57E1687C075/Windows6.1-KB2970228-x64.msu
+Windows6.1-KB3006137-x64.msu http://download.microsoft.com/download/7/4/B/74BCF487-396E-481E-ACC2-90A40EAD669E/Windows6.1-KB3006137-x64.msu
+Windows6.1-KB3006137-x86.msu http://download.microsoft.com/download/B/7/2/B721C268-01ED-4935-A01D-EDAED044FEBB/Windows6.1-KB3006137-x86.msu
+Windows6.1-KB3102429-v2-x64.msu http://download.microsoft.com/download/9/B/1/9B14DB44-D42B-4ABC-88A5-4B45C7FE3E21/Windows6.1-KB3102429-v2-x64.msu
+Windows6.1-KB3102429-v2-x86.msu http://download.microsoft.com/download/E/7/1/E71E7B5B-7631-4B5F-82D5-3DE53E3E9C64/Windows6.1-KB3102429-v2-x86.msu
+; Remove Windows Journal Application (potential security hole)
+Windows6.1-KB3161102-x64.msu http://download.microsoft.com/download/F/C/8/FC8CF7F3-9E87-45DB-9378-EB58917465D5/Windows6.1-KB3161102-x64.msu
+Windows6.1-KB3161102-x86.msu http://download.microsoft.com/download/4/4/D/44D99151-3E68-411F-A460-75B33FECBA06/Windows6.1-KB3161102-x86.msu
+; Quality Update Rollup 07/2016
+Windows6.1-KB3172605-x64.msu http://download.microsoft.com/download/5/6/0/560504D4-F91A-4DEB-867F-C713F7821374/Windows6.1-KB3172605-x64.msu
+Windows6.1-KB3172605-x86.msu http://download.microsoft.com/download/C/D/5/CD5DE7B2-E857-4BD4-AA9C-6B30C3E1735A/Windows6.1-KB3172605-x86.msu
+; Quality Update Rollup 08/2016
+Windows6.1-KB3179573-x64.msu http://download.microsoft.com/download/2/C/6/2C6561A0-BB92-4BB0-8D13-12DEDD5EBA6F/Windows6.1-KB3179573-x64.msu
+Windows6.1-KB3179573-x86.msu http://download.microsoft.com/download/F/A/E/FAE2EAF8-F537-4B49-98B4-606EAD2D4ADD/Windows6.1-KB3179573-x86.msu
+;
+; Security fixes (missing in cumulative updates)
+;
+Windows6.1-KB2667402-v2-x64.msu http://download.microsoft.com/download/2/2/1/221537C9-915E-45F7-86D5-F74F2723F45B/Windows6.1-KB2667402-v2-x64.msu
+Windows6.1-KB2667402-v2-x86.msu http://download.microsoft.com/download/9/B/A/9BAE15E4-BBD6-4B93-AB91-5E834025F3F6/Windows6.1-KB2667402-v2-x86.msu
+Windows6.1-KB2813347-x64.msu http://download.microsoft.com/download/6/2/7/62707A22-00F8-4742-9E10-C8E61DB92AD9/Windows6.1-KB2813347-x64.msu
+Windows6.1-KB2813347-x86.msu http://download.microsoft.com/download/3/3/6/33643971-3DAB-4962-BCF4-FF142018E33C/Windows6.1-KB2813347-x86.msu
+Windows6.1-KB2984972-x64.msu http://download.microsoft.com/download/D/D/3/DD38C2FF-16AC-4B8C-8068-97237CF53B01/Windows6.1-KB2984972-x64.msu
+Windows6.1-KB2984972-x86.msu http://download.microsoft.com/download/9/0/C/90C4DB76-4EB6-4B0D-956F-1711B106EBD2/Windows6.1-KB2984972-x86.msu
+Windows6.1-KB2698365-x64.msu http://download.microsoft.com/download/7/8/C/78CA3552-614E-4815-A64F-8701C568D72D/Windows6.1-KB2698365-x64.msu
+Windows6.1-KB2698365-x86.msu http://download.microsoft.com/download/6/2/F/62F6421C-6673-4BCC-84A2-99D5A9C615F0/Windows6.1-KB2698365-x86.msu
+Windows6.1-KB2862330-v2-x64.msu http://download.microsoft.com/download/9/8/1/9813DB15-46A9-4B6C-BFE4-1D25EEE5ECF3/Windows6.1-KB2862330-v2-x64.msu
+Windows6.1-KB2862330-v2-x86.msu http://download.microsoft.com/download/E/2/D/E2DAEF68-4A26-4BB1-BC8B-01771FE71946/Windows6.1-KB2862330-v2-x86.msu
+Windows6.1-KB2900986-x64.msu http://download.microsoft.com/download/5/D/9/5D93E83F-F5B8-42D6-87F5-73F3B10D8D87/Windows6.1-KB2900986-x64.msu
+Windows6.1-KB2900986-x86.msu http://download.microsoft.com/download/E/D/2/ED26255D-7A4F-4C2D-A7DA-A8B130A7D2CA/Windows6.1-KB2900986-x86.msu
+Windows6.1-KB2912390-x64.msu http://download.microsoft.com/download/A/E/D/AEDDD34E-EB10-4D54-9B68-250667EF7A8B/Windows6.1-KB2912390-x64.msu
+Windows6.1-KB2912390-x86.msu http://download.microsoft.com/download/A/2/E/A2E67704-D00D-4769-B448-537E3A71D909/Windows6.1-KB2912390-x86.msu
+Windows6.1-KB3046269-x64.msu http://download.microsoft.com/download/8/6/6/866F143B-55ED-4308-81EA-20EE4167A639/Windows6.1-KB3046269-x64.msu
+Windows6.1-KB3046269-x86.msu http://download.microsoft.com/download/B/1/0/B10F8659-77CE-4139-8C34-B046950641A4/Windows6.1-KB3046269-x86.msu
+Windows6.1-KB3035126-x64.msu http://download.microsoft.com/download/F/4/7/F476042F-AD08-4248-9E93-97A3959978D2/Windows6.1-KB3035126-x64.msu
+Windows6.1-KB3035126-x86.msu http://download.microsoft.com/download/1/E/9/1E9E97FB-A1DB-45C6-A0F0-EC5BBE22AE1C/Windows6.1-KB3035126-x86.msu
+Windows6.1-KB3031432-x64.msu http://download.microsoft.com/download/D/D/E/DDEEA567-71E7-40A1-A77D-47A305233B4C/Windows6.1-KB3031432-x64.msu
+Windows6.1-KB3031432-x86.msu http://download.microsoft.com/download/0/C/5/0C540274-42D4-4868-8261-5A94D1EEDDDF/Windows6.1-KB3031432-x86.msu
+Windows6.1-KB3004375-v3-x64.msu http://download.microsoft.com/download/F/4/B/F4BE818D-22B9-4EF5-8E20-B9C4A605E61E/Windows6.1-KB3004375-v3-x64.msu
+Windows6.1-KB3004375-v3-x86.msu http://download.microsoft.com/download/0/E/3/0E32F39B-1D5E-4B0E-804C-F736DAADDD93/Windows6.1-KB3004375-v3-x86.msu
+Windows6.1-KB3110329-x64.msu http://download.microsoft.com/download/6/4/F/64F42EC7-F88B-41B7-99F6-BC83ECE4105E/Windows6.1-KB3110329-x64.msu
+Windows6.1-KB3110329-x86.msu http://download.microsoft.com/download/4/B/5/4B5B1DCB-3C30-45C3-971B-8F7EE13AFCF6/Windows6.1-KB3110329-x86.msu
+Windows6.1-KB3161949-x64.msu http://download.microsoft.com/download/A/F/C/AFCCFFB9-9352-4DE7-BBF6-24C4AC520327/Windows6.1-KB3161949-x64.msu
+Windows6.1-KB3161949-x86.msu http://download.microsoft.com/download/7/E/D/7EDECDBB-54F0-412C-AF4C-27FC951BC15B/Windows6.1-KB3161949-x86.msu
+Windows6.1-KB3159398-x64.msu http://download.microsoft.com/download/C/4/0/C4032BF7-2912-467F-A75A-58B8123205B3/Windows6.1-KB3159398-x64.msu
+Windows6.1-KB3159398-x86.msu http://download.microsoft.com/download/C/C/A/CCAC5F69-723A-403C-B17D-B7D358729713/Windows6.1-KB3159398-x86.msu
+Windows6.1-KB3156016-x64.msu http://download.microsoft.com/download/2/3/2/232223A7-6A93-4B03-BBB1-1D8988B615C8/Windows6.1-KB3156016-x64.msu
+Windows6.1-KB3156016-x86.msu http://download.microsoft.com/download/7/A/0/7A088E32-4059-44F6-8B96-B7B7AA8AB350/Windows6.1-KB3156016-x86.msu
+Windows6.1-KB3155178-x64.msu http://download.microsoft.com/download/5/F/7/5F72F94D-10DF-4CAC-8427-7ED182652115/Windows6.1-KB3155178-x64.msu
+Windows6.1-KB3155178-x86.msu http://download.microsoft.com/download/B/8/0/B803591E-9548-421A-BE04-DF44B5B749D8/Windows6.1-KB3155178-x86.msu
+Windows6.1-KB3150220-x64.msu http://download.microsoft.com/download/1/E/2/1E2E5D59-6A94-4CBA-9A33-167BF3CD361C/Windows6.1-KB3150220-x64.msu
+Windows6.1-KB3150220-x86.msu http://download.microsoft.com/download/E/B/1/EB1A2799-1C07-45C3-8ED8-C536E94CBB28/Windows6.1-KB3150220-x86.msu
+Windows6.1-KB3059317-x64.msu http://download.microsoft.com/download/0/D/2/0D257A30-9009-4922-939C-358ED071FF63/Windows6.1-KB3059317-x64.msu
+Windows6.1-KB3059317-x86.msu http://download.microsoft.com/download/F/9/5/F95DC823-DE4A-48F4-83C1-CDAF55FBF89B/Windows6.1-KB3059317-x86.msu
+;
+; Update for Windows Update Client
+Windows6.1-KB3138612-x64.msu http://download.microsoft.com/download/B/7/C/B7CD3A70-1EA7-486A-9585-F6814663F1A9/Windows6.1-KB3138612-x64.msu
+Windows6.1-KB3138612-x86.msu http://download.microsoft.com/download/E/4/7/E47FB37E-7443-4047-91F7-16DDDCF2955C/Windows6.1-KB3138612-x86.msu
+; Internet Explorer 11 Cumulative Updates
+ie11-windows6.1-kb3185319-x64.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2016/09/ie11-windows6.1-kb3185319-x64_fc0fd52e6ce28c212c2ce5b3dd13cf5fbcb95ca5.msu
+ie11-windows6.1-kb3185319-x86.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2016/09/ie11-windows6.1-kb3185319-x86_cd4081249bd098b0244fef6e9dfb8ee5674f1fcd.msu
+ie11-windows6.1-kb4483187-x64.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/12/ie11-windows6.1-kb4483187-x64_f57683541da12b2646ee182a8a84b7a03b9ed076.msu
+ie11-windows6.1-kb4483187-x86.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2018/12/ie11-windows6.1-kb4483187-x86_8b3486b7d1630461150ff63108a614b716ad36ee.msu
+; SHA-2 code signing support
+windows6.1-kb4474419-v3-x86.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2019/09/windows6.1-kb4474419-v3-x86_0f687d50402790f340087c576886501b3223bec6.msu
+windows6.1-kb4474419-v3-x64.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2019/09/windows6.1-kb4474419-v3-x64_b5614c6cea5cb4e198717789633dca16308ef79c.msu
+; February 2021 Cumulative Update
+windows6.1-kb4601347-x86.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2021/01/windows6.1-kb4601347-x86_53791324ad02cf747e8b8bce9d76d47a84de222f.msu
+windows6.1-kb4601347-x64.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2021/01/windows6.1-kb4601347-x64_12d4c2f351e395f5285b32060899ef4d087db463.msu
+; .NET 3.5.1 Security Update
+Windows6.1-KB2894844-x86.msu http://download.microsoft.com/download/9/1/C/91C53D25-7A2E-411B-B3F5-33AE18ABFAA5/Windows6.1-KB2894844-x86.msu
+Windows6.1-KB2894844-x64.msu http://download.microsoft.com/download/9/1/C/91C53D25-7A2E-411B-B3F5-33AE18ABFAA5/Windows6.1-KB2894844-x64.msu
+; .NET 3.5 Cumulative Updates
+windows6.1-kb4019990-x86.msu http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/05/windows6.1-kb4019990-x86_1365fb557d5e5917cbf59b507eac066ad89ea3f7.msu
+windows6.1-kb4019990-x64.msu http://download.windowsupdate.com/c/msdownload/update/software/updt/2017/05/windows6.1-kb4019990-x64_35cc310e81ef23439ba0ec1f11d7b71dd34adfe5.msu
+windows6.1-kb4040980-x86.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2017/09/windows6.1-kb4040980-x86_533cbfb7e2754d4a82e558f0c6d4b767881fff1e.msu
+windows6.1-kb4040980-x64.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2017/09/windows6.1-kb4040980-x64_83282fb5210091802984ead0d4175879056d602c.msu
+windows6.1-kb4532945-x86.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2020/01/windows6.1-kb4532945-x86_0438d1eece17622a078b0d08dd6e812a67a09f37.msu
+windows6.1-kb4532945-x64.msu http://download.windowsupdate.com/c/msdownload/update/software/secu/2020/01/windows6.1-kb4532945-x64_d070fb06c4c56f70e4d2e891181028fa7c35694d.msu
+windows6.1-kb4578952-x86.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2020/10/windows6.1-kb4578952-x86_7246565d7fec14ad0381deac93faef3024068eb6.msu
+windows6.1-kb4578952-x64.msu http://download.windowsupdate.com/d/msdownload/update/software/secu/2020/10/windows6.1-kb4578952-x64_30ac0df8554c2647017f3b36cc02e833a3187364.msu
+; Universal C Runtime
+Windows6.1-KB3118401-x86.msu http://download.microsoft.com/download/6/1/D/61DE9D89-5A69-401A-B5BD-E74F1D6E1BD5/Windows6.1-KB3118401-x86.msu
+Windows6.1-KB3118401-x64.msu http://download.microsoft.com/download/D/1/0/D107EB4D-2295-4127-A187-97FB290D7A3F/Windows6.1-KB3118401-x64.msu
