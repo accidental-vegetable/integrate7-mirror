@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; Disable Windows Scripting Host
+;
+; Windows Script Host is used by some rare tools like "Windows Loader by DAZ".
+;
+; But it is also often used by malwares.
+; It allows to execute .js and .vbs files, that today are used to spread malwares via emails.
+;
+; It's highly recommended to disable Windows Scripting Host as soon as possible
+; (when it will be no longer needed).
+;
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Script Host\Settings]
+"Enabled"=dword:00000000
+
