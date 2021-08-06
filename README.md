@@ -17,3 +17,12 @@ The password for the archives was `Integrate2020` .
 Unfortunately, the archives themselves (the latest ones for sure) were too large for GitHub, so aren't provided for reference.
 
 The hashes of the archives are in `SHA256SUMS` and `SHA512SUMS` just in case for the reference.
+
+## Analysis
+The analysis of available versions.
+
+### Directory `tools`
+
+All of the files in this directory are **identical** between given versions.
+
+`download_tools_amd64.sh` documents findings and downloads available (NOT ALL) binary equivalents for the `tools/amd64` subtree.
