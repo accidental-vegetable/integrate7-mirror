@@ -23,6 +23,12 @@ The analysis of available versions.
 
 ### Directory `tools`
 
-All of the files in this directory are **identical** between given versions.
+All of the files in this directory are **identical** between available versions.
 
 `download_tools_amd64.sh` documents findings and downloads available (NOT ALL) binary equivalents for the `tools/amd64` subtree.
+
+### Directory `add_these_files_to_Windows`
+
+All of the files in this directory are **identical** between available versions.
+
+No binaries, only `cmd` open-source script.
