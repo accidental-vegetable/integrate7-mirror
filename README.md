@@ -14,7 +14,17 @@ This repository will put each version in a separate branch, as many old versions
 
 The password for the archives was `Integrate2020` .
 
-Unfortunately, the archives themselves (the latest ones for sure) were too large for GitHub, so aren't provided for reference.
+Unfortunately, the archives themselves (the latest ones for sure) were too large for GitHub, so aren't provided for reference in the Git repository.
+
+But you can get them using Docker.
+```bash
+docker pull accidentalvegetable/integrate7:archives
+# Create container without running the image
+docker create --name container_name accidentalvegetable/integrate7:archives
+docker cp container_name:/src/ .
+docker rm container_name
+```
+See `Dockerfile` for the details of the image.
 
 The hashes of the archives are in `SHA256SUMS` and `SHA512SUMS` just in case for the reference.
 
