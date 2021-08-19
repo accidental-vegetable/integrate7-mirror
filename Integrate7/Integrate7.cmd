@@ -594,7 +594,7 @@ ECHO ================================================================
 ECHO Adding package KB4490628 - Servicing Stack 03/2019...
 ECHO ================================================================
 ECHO.
-"%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\%%i" /PackagePath:"%~dp0hotfixes\Windows6.1-KB4490628-%ImageArchitecture%.msu"
+"%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\%%i" /PackagePath:"%~dp0hotfixes\windows6.1-kb4490628-%ImageArchitecture%.msu"
 
 ECHO.
 ECHO.
@@ -1931,7 +1931,7 @@ if not "%BootDrivers%"=="1" goto skipBootDrivers
  for /L %%i in (1, 1, %BootCount%) do (
   "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Mount-Wim /WimFile:"%~dp0DVD\sources\boot.wim" /index:%%i /MountDir:"%~dp0mount\Boot"
   REM Pre-requsite for USB3
-  "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\Boot" /PackagePath:"%~dp0hotfixes\Windows6.1-kb2864202-%ImageArchitecture%.msu"
+  "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\Boot" /PackagePath:"%~dp0hotfixes\windows6.1-kb2864202-%ImageArchitecture%.msu"
   REM Other drivers
   "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Image:"%~dp0mount\Boot" /Add-Driver /Driver:"%~dp0add_these_drivers_to_Installer\%ImageArchitecture%" /Recurse /ForceUnsigned
   "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Unmount-Wim /MountDir:"%~dp0mount\Boot" /commit
@@ -1963,7 +1963,7 @@ if not "%InstallDrivers%"=="1" goto skipDrivers
     "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\%%i" /PackagePath:"%~dp0hotfixes\NVMe\windows6.1-KB3087873-v2-%ImageArchitecture%.msu"
    )
    REM Pre-requisite for USB3
-   "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\%%i" /PackagePath:"%~dp0hotfixes\Windows6.1-kb2864202-%ImageArchitecture%.msu"
+   "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\%%i" /PackagePath:"%~dp0hotfixes\windows6.1-kb2864202-%ImageArchitecture%.msu"
   )
   "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Image:"%~dp0mount\%%i" /Add-Driver /Driver:"%~dp0add_these_drivers_to_Windows\%ImageArchitecture%" /Recurse /ForceUnsigned
 
@@ -1977,7 +1977,7 @@ if not "%InstallDrivers%"=="1" goto skipDrivers
    mkdir "%~dp0mount\WinRE" >nul 2>&1
    "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Mount-Wim /WimFile:"%~dp0mount\%%i\Windows\System32\Recovery\winRE.wim" /index:1 /MountDir:"%~dp0mount\WinRE"
    REM Pre-requisite for USB3
-   "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\WinRE" /PackagePath:"%~dp0hotfixes\Windows6.1-kb2864202-%ImageArchitecture%.msu"
+   "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\WinRE" /PackagePath:"%~dp0hotfixes\windows6.1-kb2864202-%ImageArchitecture%.msu"
    REM Generic NVMe drivers
    if exist "%~dp0hotfixes\NVMe\windows6.1-KB2990941-v3-%ImageArchitecture%.msu" (
     "%~dp0tools\%HostArchitecture%\DISM\dism.exe" /Add-Package /Image:"%~dp0mount\WinRE" /PackagePath:"%~dp0hotfixes\NVMe\windows6.1-KB2990941-v3-%ImageArchitecture%.msu"
