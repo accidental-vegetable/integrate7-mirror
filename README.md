@@ -95,3 +95,26 @@ c49a646ed478ebc9a93bc37f696a9efdc7b46ab89db2dd1acf850cb005ef71c9  dx9.txt
 'windows6.1-kb3020369-x64.msu', # April 2015 servicing stack update for Windows 7 and Windows Server 2008 R2
 'windows6.1-kb4534310-x64.msu', # January 14, 2020—KB4534310 (Monthly Rollup)
 'windows6.1-kb4539602-x64.msu'} # Wallpaper set to Stretch is displayed as black in Windows 7 SP1 and Server 2008 R2 SP1
+
+# DISM
+The DISM directory contains executables with subversion 9600, which corresponds to Windows 8.1.
+So these are from Windows ADK for Windows 8.1.
+Unfortunately, it is not provided anymore by Microsoft for download.
+
+The versions of DISM executables:
+DISM/dism.exe (6.3.9600.17029)
+DISM/imagex.exe (6.3.9600.17095)
+DISM/pkgmgr.exe (6.3.9600.17029)
+DISM/wimmountadksetupamd64.exe (6.3.9600.16384)
+DISM/wimserv.exe (6.3.9600.17029)
+
+All these executables are the same in Integrate7 versions checked (v2.21, v3.35, v3.40).
+
+All the executable were manually checked by virustotal.com, all clear and have Microsoft signatures.
+The rest of files were checked in an archive by virustotal.com and nothing was flagged.
+
+sha256sum --check tools_virustotal_confirmed.sha256
+
+
+In 2.21 version there was also wget for Adobe Flash Player
+ExtraScripts/InstallFlashPlayer/wget.exe (GNU wget 1.19.4 buil on mingw32)
